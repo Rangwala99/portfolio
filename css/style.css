@@ -621,7 +621,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1300px;
   }
 }
 
@@ -9496,10 +9496,15 @@ a.text-dark:focus {
   }
 }
 
+@font-face {
+  font-family: 'TiemposHeadline-Regular';
+  src: url("fonts/TiemposHeadline-Regular.otf") format("opentype");
+}
+
 body {
   font-family: 'Poppins', Arial, sans-serif;
   background: #121212;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.8;
   font-weight: 400;
   color: #8c8c8c;
@@ -9593,6 +9598,11 @@ h5,
   line-height: 1.5;
   color: #fff;
   font-weight: 400;
+}
+
+.section-heading{
+  font-family: 'TiemposHeadline-Regular';
+  font-size: 60px;
 }
 
 .text-primary {
