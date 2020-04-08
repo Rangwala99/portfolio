@@ -1,7 +1,12 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-$font-primary: 'Poppins',Arial, sans-serif;
+@font-face {
+    font-family: 'TiemposHeadline-Regular';
+    src: url("fonts/TiemposHeadline-Regular.otf") format("opentype");
+}
+
+$font-primary: 'TiemposHeadline-Regular','Poppins',Arial, sans-serif;
 
 $white: #fff;
 $black: #121212;
