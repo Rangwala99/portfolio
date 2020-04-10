@@ -9842,7 +9842,7 @@ header .colorlib-navbar-brand .colorlib-logo .logo-img {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 header .colorlib-navbar-brand .colorlib-logo:hover {
   text-decoration: none !important;
