@@ -85,6 +85,34 @@ body {
   background-color: #fff;
 }
 
+.navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: PT Mono;
+  color: black;
+}
+
+.navbar-li {
+  float: right;
+  padding-left: 18px;
+  color: black;
+}
+
+.navbar-li a {
+  color: black;
+}
+
+.navbar-li a:hover {
+  color: black;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}
+
+.social:hover {
+  color: black;
+}
+
 [tabindex='-1']:focus {
   outline: 0 !important;
 }
@@ -183,13 +211,13 @@ sup {
 }
 
 a {
-  color: #79efb4;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 a:hover {
-  color: #35e78e;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -487,7 +515,7 @@ mark,
   list-style: none;
 }
 
-.list-horizontal-item{
+.list-horizontal-item {
   display: table-cell;
   text-align: center;
 }
@@ -9498,7 +9526,7 @@ a.text-dark:focus {
 
 @font-face {
   font-family: 'TiemposHeadline-Regular';
-  src: url("fonts/TiemposHeadline-Regular.otf") format("opentype");
+  src: url('fonts/TiemposHeadline-Regular.otf') format('opentype');
 }
 
 body {
@@ -9600,7 +9628,7 @@ h5,
   font-weight: 400;
 }
 
-.section-heading{
+.section-heading {
   font-family: 'TiemposHeadline-Regular';
   font-size: 60px;
 }
