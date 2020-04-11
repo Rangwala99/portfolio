@@ -85,7 +85,8 @@ body {
   background-color: #fff;
 }
 
-.highlightme { background-color:rgb(185, 218, 226); 
+.highlightme {
+  background-color: rgb(185, 218, 226);
 }
 
 .navbar-ul {
@@ -114,6 +115,21 @@ body {
 
 .social:hover {
   color: black;
+}
+
+.about-div {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.about-div img {
+  /* -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%; */
+  display: block;
+  width: 80%;
 }
 
 [tabindex='-1']:focus {
@@ -10734,7 +10750,7 @@ textarea.form-control {
 .author-img,
 .logo-img,
 .user-img {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
