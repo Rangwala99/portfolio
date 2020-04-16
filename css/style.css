@@ -83,6 +83,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
 
 .highlightme {
@@ -11484,4 +11485,77 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+header .my-navbar-brand .my-logo {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding: 7px;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+@media (min-width: 768px) {
+  header .my-navbar-brand .my-logo {
+    text-align: left;
+    padding-left: 10%;
+  }
+}
+header .my-navbar-brand .my-logo .logo-img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0%;
+}
+header .my-navbar-brand .my-logo:hover {
+  text-decoration: none !important;
+}
+header .my-navbar-brand .my-logo:active,
+header .my-navbar-brand .my-logo:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.my-navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: PT Mono;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .my-navbar-ul {
+    justify-content: flex-end;
+    padding-right: 10%;
+  }
+}
+
+.my-navbar-li {
+  /* float: right; */
+  padding-left: 20px;
+  color: black;
+}
+.my-navbar-li:first-of-type {
+  padding-left: 0;
+}
+.my-navbar-li:last-of-type {
+  padding-right: 0;
+}
+
+.my-navbar-li a {
+  color: black;
+}
+
+.my-navbar-li a:hover {
+  color: black;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
 }
