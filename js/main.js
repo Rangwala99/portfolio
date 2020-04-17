@@ -210,5 +210,10 @@ $(document).ready(function($) {
 	  });
 	});
 	
+	document.getElementsByClassName('iv-image-view')[0].addEventListener('click', function(event) {
+		if(event.target !== document.getElementsByClassName('iv-image')[0]) {
+			viewer.hide();
+		}
+	});
 });
 
