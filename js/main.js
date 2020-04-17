@@ -201,6 +201,14 @@ $(document).ready(function($) {
 	};
 	pageProgress();
 
-
+	const viewer = new ImageViewer.FullScreenViewer();
+	Array.from(document.querySelectorAll(".iv-popup")).forEach(elem => {
+	  elem.addEventListener("click", function(ev) {
+		const imgSrc = elem.src;
+		const highResolutionImage = elem.getAttribute("data-high-res-src");
+		viewer.show(imgSrc, highResolutionImage);
+	  });
+	});
+	
 });
 
